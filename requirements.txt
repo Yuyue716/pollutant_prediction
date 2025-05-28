@@ -1,2 +1,11 @@
+streamlit
+pandas
+numpy==1.23.5
+Cython
+setuptools
+wheel
+scikit-learn
+statsmodels
+matplotlib
 plotly
-pmdarima
+pmdarima==2.0.3

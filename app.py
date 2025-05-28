@@ -2,7 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
+from datetime import datetime
+import re
+from statsmodels.tsa.arima.model import ARIMA
 from pmdarima import auto_arima
+import matplotlib.pyplot as plt
 import warnings
 
 # Suppress warnings
